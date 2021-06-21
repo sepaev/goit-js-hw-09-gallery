@@ -1,6 +1,3 @@
-var ghpages = require('gh-pages');
-ghpages.publish('dist', function (err) { });
-
 import "./css/styles.css"
 import { refs } from './js/refs';
 import { createGalery } from './js/createGalery';
